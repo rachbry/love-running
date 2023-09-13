@@ -1,0 +1,22 @@
+/* * asset wildcard selector to override default styles added by browser */
+* {
+    padding: 0;
+    margin: 0;
+    /* this means styling applyed to all elements will include the border box */
+    box-sizing: border-box;
+
+}
+
+
+/* header */
+header {
+    background-color: lightcoral;
+}
+/* main */
+main {
+    background-color: lightblue;
+}   
+/* footer */
+footer {
+    background-color: orange;
+}
