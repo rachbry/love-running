@@ -122,6 +122,13 @@ main {
     color: #ffffff;
 }
 
+/* Reasons section */
+
+#benefits h3 {
+    display: inline-block;
+}
+
+
 /* footer */
 #social-networks {
     text-align: center;
