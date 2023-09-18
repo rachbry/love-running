@@ -254,3 +254,34 @@ main {
 }
 
 }
+
+/* Desktop screens 1200 px and wider */
+
+@media screen and (min-width: 1200px) {
+
+#benefits {
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 50px; */
+}
+
+#benefits-physical {
+    order: 1;
+}
+
+#benefits-image {
+    order: 2;
+}
+#benefits-mental {
+    order: 3;
+}
+
+#benefits-physical > div {
+    align-self: flex-end;
+}
+
+#benefits-mental > div {
+    align-self: flex-start;
+}
+
+}
