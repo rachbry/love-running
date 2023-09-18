@@ -128,6 +128,27 @@ main {
     display: inline-block;
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+}
+
+#reasons hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+.benefit-box {
+    margin-bottom: 20px;
+}
+.benefit-box p {
+    padding: 0 20px;
+}
+
 
 /* footer */
 #social-networks {
