@@ -156,7 +156,6 @@ h3 {
     justify-content: center;
 }
 
-
 #circle-cover-bg {
     background: url("../images/reasons-image.jpg") no-repeat top center / cover; 
     width: 90vw;
@@ -165,6 +164,32 @@ h3 {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+}
+
+/* Meet up Section */
+
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    /* handles responsiveness without needing a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* Each div will expand to fill available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* Overrides heading color set in general */
+    color: #fafafa;
 }
 
 
@@ -239,11 +264,11 @@ main {
     width: 75%;
 }
 
-
 #benefits-mental > div {
     text-align: end;
     align-self: flex-end;
 }
+
 
 /* Large devices - laptops and larger (992px and up) */
 
