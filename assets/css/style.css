@@ -246,6 +246,7 @@ main {
     color: #fafafa;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    width: 100%;
 }
 
 #radio-buttons {
@@ -262,6 +263,7 @@ main {
     color: #fafafa;
     font-size: 100%;
 }
+
 
 /* MEDIA QUERY for large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -313,7 +315,6 @@ main {
 }
 
 /* Reasons section */
-
 #benefits-physical,
 #benefits-mental {
     display: flex;
@@ -333,6 +334,31 @@ main {
 
 #photos {
     column-count: 3;
+}
+
+/* SIGNUP PAGE */
+
+#signup {
+    background-position: center;
+}
+
+#signup-form {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 10%;
+}
+
+.input-box {
+    max-width: 400px;
+}
+
+#signup input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
 }
 
 }
