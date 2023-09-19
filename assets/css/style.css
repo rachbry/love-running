@@ -31,6 +31,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+/* Use this so headings are available for search engines but will not show on screen */
+.hidden-heading {
+    display: none;
+}
 
 /* header */
 header {
