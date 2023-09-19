@@ -128,10 +128,6 @@ main {
 
 /* Reasons section */
 
-h3 {
-    display: inline-block;
-}
-
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -326,6 +322,7 @@ main {
 #benefits-image {
     order: 2;
 }
+
 #benefits-mental {
     order: 3;
 }
